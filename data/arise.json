@@ -1,0 +1,59 @@
+{
+  "_aviso": "VALORES FICTÍCIOS PARA PROTÓTIPO — substituir pelos dados reais da ARISE",
+  "empresa": {
+    "nome": "ARISE",
+    "endereco": "[ENDEREÇO A PREENCHER]",
+    "horario": "Segunda a sexta, 8h às 18h. Sábado, 8h às 12h.",
+    "instagram": "[@A PREENCHER]"
+  },
+  "servicos": [
+    {
+      "id": "ppf",
+      "nome": "PPF — película de proteção de pintura",
+      "o_que_e": "Película transparente que protege a pintura contra riscos, pedriscos e manchas, com efeito autorregenerativo em riscos leves.",
+      "indicado_para": "Carros novos ou com pintura em bom estado, especialmente quem pega estrada.",
+      "opcoes": [
+        { "nome": "PPF frontal (capô, para-choque, retrovisores)", "preco": { "hatch": "R$ 2.500 a 3.200", "seda": "R$ 2.800 a 3.500", "suv": "R$ 3.200 a 4.000", "picape": "R$ 3.500 a 4.500" } },
+        { "nome": "PPF carro inteiro", "preco": { "hatch": "a partir de R$ 12.000", "seda": "a partir de R$ 14.000", "suv": "a partir de R$ 16.000", "picape": "a partir de R$ 18.000" } }
+      ],
+      "prazo": "Frontal: 1 a 2 dias. Carro inteiro: 4 a 6 dias.",
+      "cuidados": "Não lavar por 7 dias após a aplicação."
+    },
+    {
+      "id": "pelicula",
+      "nome": "Película de vidros",
+      "o_que_e": "Película que reduz calor e raios UV e aumenta a privacidade, dentro do permitido pela legislação.",
+      "opcoes": [
+        { "nome": "Película nacional", "preco": { "todos": "R$ 400 a 700" } },
+        { "nome": "Película nano cerâmica", "preco": { "todos": "R$ 1.200 a 2.000" } }
+      ],
+      "prazo": "Algumas horas, no mesmo dia.",
+      "cuidados": "Não abrir os vidros por 3 dias."
+    },
+    {
+      "id": "vitrificacao",
+      "nome": "Vitrificação de pintura",
+      "o_que_e": "Camada de proteção que dá brilho intenso e facilita a limpeza. Inclui polimento técnico antes da aplicação.",
+      "opcoes": [
+        { "nome": "Vitrificação com polimento", "preco": { "hatch": "R$ 1.200 a 1.600", "seda": "R$ 1.400 a 1.800", "suv": "R$ 1.600 a 2.200", "picape": "R$ 1.800 a 2.500" } }
+      ],
+      "prazo": "2 a 3 dias.",
+      "cuidados": "Evitar chuva e lavagem por 5 dias."
+    },
+    {
+      "id": "lavagem",
+      "nome": "Lavagem detalhada",
+      "o_que_e": "Lavagem técnica completa, interna e externa.",
+      "status": "Em avaliação: a ARISE pode suspender este serviço. Se perguntarem, diga que a agenda de lavagem está limitada e ofereça passar para a responsável.",
+      "opcoes": [
+        { "nome": "Lavagem detalhada", "preco": { "todos": "consultar" } }
+      ]
+    }
+  ],
+  "perguntas_frequentes": [
+    { "pergunta": "Aceita cartão?", "resposta": "[A PREENCHER]" },
+    { "pergunta": "Parcela?", "resposta": "[A PREENCHER — se não souber, transferir]" },
+    { "pergunta": "Tem garantia?", "resposta": "[A PREENCHER]" },
+    { "pergunta": "Posso esperar no local?", "resposta": "[A PREENCHER]" }
+  ]
+}
