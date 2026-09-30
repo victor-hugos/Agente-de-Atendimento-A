@@ -19,6 +19,23 @@ npm run dev               # sobe o servidor em http://localhost:3000
 
 Para conferir se está no ar: abra http://localhost:3000/api/health.
 
+## Conversar com o agente no terminal
+
+```bash
+npm run chat
+```
+
+Digite como se fosse uma cliente. Abaixo de cada resposta aparecem as ferramentas chamadas (em amarelo) e os tokens e o custo daquela mensagem.
+
+Comandos:
+
+- `/pedido` mostra o que já foi coletado, o modo da conversa e o custo acumulado.
+- `/devolver` tira a conversa do modo "aguardando responsável" (como o botão do painel).
+- `/novo` começa uma conversa nova.
+- `/sair` encerra.
+
+Cada troca é registrada em `logs/conversas.jsonl`, com tokens e custo estimado.
+
 ## Configuração (`.env`)
 
 | Variável | Para que serve | Padrão |
